@@ -7,6 +7,6 @@
 - [x] Get 10 cells
 - [x] UICollectionViewFlowLayout subclass
 	- [x] prepareLayout
-- [ ] layoutAttributesForElementsInRect:
-	- [ ] random y values
-- [ ] Heights of cells proportional to y-axis
+- [x] layoutAttributesForElementsInRect:
+	- [x] random y values
+- [x] Heights of cells proportional to y-axis
