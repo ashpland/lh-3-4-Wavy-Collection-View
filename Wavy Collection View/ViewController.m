@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "WavyFlowLayout.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionViewController;
+
 
 @end
 
@@ -17,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.collectionViewController.collectionViewLayout = [WavyFlowLayout new];
+
 }
 
 
